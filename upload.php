@@ -65,7 +65,7 @@ if (isset($_POST["submit"])) {
     }
 }
 
-$command = escapeshellcmd('/home/tobi/PycharmProjects/template_matching_console/main.py');
+$command = escapeshellcmd('main.py');
 
 $imagePath = 'results/result.jpg';
 if (file_exists($imagePath)) {
